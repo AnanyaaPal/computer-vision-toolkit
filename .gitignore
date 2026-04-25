@@ -1,5 +1,7 @@
 # temporary vscode files
 .DS_Store
+*.txt
+PKG-INFO
 
 # env variables
 .venv

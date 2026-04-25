@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools-scm"]
+
+[project]
+name = "easy-cv"
+version = "0.1.0"
+description = "Open-source toolkit with customized methodology for industrial image analysis."
+authors = [{ name = "Ananya Pal" }]
+requires-python = ">=3.12"
+readme = "README.md"
+
+dependencies = [
+    "pandas>=3.0.1",
+    "scikit-learn",
+    "seaborn>=0.13.2",
+    "torch>=2.9.1",
+    "torchvision>=0.24.1",
+]
